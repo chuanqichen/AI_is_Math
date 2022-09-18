@@ -14,5 +14,5 @@ git pull
 
 ## How to run the code and do homework assignments 
 Open vscode, Click "File" -> "Open Folder" and browse to open ~/XB101, you should have following vscode window: 
-
+![XB101 VSCode Workspace](XB101_VSCode.png)
 
