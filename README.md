@@ -7,11 +7,11 @@
 ** For the first lab, start from home directory in your Ubuntu terminal: 
 cd 
 git clone https://github.com/chuanqichen/XB101.git
+pip install numpy scipy matplotlib 
+pip install notebook ipykernel
 ** get latest update in subsequent labs 
 cd XB101
 git pull
-pip install numpy scipy matplotlib 
-pip install notebook ipykernel
 ```
 
 ## How to run the code and do homework assignments 
