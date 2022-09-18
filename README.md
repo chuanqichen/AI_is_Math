@@ -23,5 +23,10 @@ Refer to above screenshot, click "ex1_1_basic_python.py", then press "Run" (the 
 ### Run Jupyter Notebook version locally 
 Alternatively, you can run the Jupyter Notebook version of the code ex1_1_basic_python.ipynb
 
+## Optionally running code using Google Colab 
+<img src="XB101_VSCode_google_colab.png" width="800">
+
+<img src="XB101_VSCode_google_colab2.png" width="800">
+
 
 
