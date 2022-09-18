@@ -10,6 +10,8 @@ git clone https://github.com/chuanqichen/XB101.git
 ** get latest update in subsequent labs 
 cd XB101
 git pull
+pip install numpy scipy matplotlib 
+pip install notebook ipykernel
 ```
 
 ## How to run the code and do homework assignments 
