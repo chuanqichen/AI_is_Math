@@ -18,7 +18,10 @@ Open vscode, Click "File" -> "Open Folder" and browse to open ~/XB101, you shoul
 
 There are two methods to do your homework assignment: 
 ### Run Python code locally 
-Refer to above screenshot, click "ex1_1_basic_python.py", then press "Run" (the red highlight button on the top right corner)
+* Refer to following screenshot, click "ex1_1_basic_python.py"
+* then press "Run All" (the red highlight button in the middle) 
+* or you can run the code section by section click "Run" (blue highlight button in the left side of the code)
+<img src="XB101_VSCode2.png" width="800">
 
 ### Run Jupyter Notebook version locally 
 Alternatively, you can run the Jupyter Notebook version of the code ex1_1_basic_python.ipynb
