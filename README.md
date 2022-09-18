@@ -11,3 +11,8 @@ git clone https://github.com/chuanqichen/XB101.git
 cd XB101
 git pull
 ```
+
+## How to run the code and do homework assignments 
+Open vscode, Click "File" -> "Open Folder" and browse to open ~/XB101, you should have following vscode window: 
+
+
