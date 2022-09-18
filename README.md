@@ -4,7 +4,7 @@
 
 ## Get this repository and always get latest before starting every lab
 ```
-**For the first lab, start from home directory in your Ubuntu terminal: 
+** For the first lab, start from home directory in your Ubuntu terminal: 
 cd 
 git clone https://github.com/chuanqichen/XB101.git
 ** get latest update in subsequent labs 
