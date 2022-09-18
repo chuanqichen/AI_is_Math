@@ -2,17 +2,12 @@
 
 ## [Course TOC](https://github.com/chuanqichen/XB101/blob/master/TOC.md)
 
-## get this repository the first time
+## Get this repository and always get latest before starting every lab
 ```
-start from home directory: 
+**For the first lab, start from home directory in your Ubuntu terminal: 
 cd 
 git clone https://github.com/chuanqichen/XB101.git
-```
-
-## get latest update in subsequent labs 
-```
-always start from XB101 root folder: 
-cd
+** get latest update in subsequent labs 
 cd XB101
 git pull
 ```
