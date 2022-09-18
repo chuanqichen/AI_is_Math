@@ -18,4 +18,4 @@ Open vscode, Click "File" -> "Open Folder" and browse to open ~/XB101, you shoul
 
 There are two methods to run the code: 
 ### run code locally 
-Refer to above screenshot, click ex_1_basci_pythin.py, then press "Run" (the red highlight button on the top right corner)
+Refer to above screenshot, click "ex1_1_basic_python.py", then press "Run" (the red highlight button on the top right corner)
