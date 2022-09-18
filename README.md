@@ -1,7 +1,4 @@
-# AI is Math
-**Check out my course site**: [AIisMath.com](https://AIisMath.com)
-
-This is my CV course raw data git repo - you can see the raw .py/ .ppt files here.
+# Robotic Vision and LiDAR Map
 
 ## Course TOC
 ### **Intro to CV and Python** [(slides)](https://www.aiismath.com/pages/c_01_intro_to_CV_and_Python/class_slides/)
