@@ -15,3 +15,7 @@ git pull
 ## How to run the code and do homework assignments 
 Open vscode, Click "File" -> "Open Folder" and browse to open ~/XB101, you should have following vscode window: 
 <img src="XB101_VSCode.png" width="800">
+
+There are two methods to run the code: 
+### run code locally 
+Refer to above screenshot, click ex_1_basci_pythin.py, then press "Run" (the red highlight button on the top right corner)
