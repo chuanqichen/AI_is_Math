@@ -27,10 +27,16 @@ def build_pyramid(pyramid_size):
     # TODO: in the 3 lines of code below 3 mistakes were made.
     #  correct the mistakes to reveal the correct plot.
     #  try to keep as much from the original code as-is, so don't re-write the entire 3 lines
+    
+    #xy_other_half = np.array(
+    #    [xy_first_half[0, :] + xy_first_half[0, :].max(), xy_first_half[1, :]])
+    #xy_full = np.concatenate((xy_other_half, xy_first_half), axis=1)
+    #plt.plot(xy_full[1, :], xy_full[0, :])
+
     xy_other_half = np.array(
-        [xy_first_half[0, :] + xy_first_half[0, :].max(), xy_first_half[1, :]])
-    xy_full = np.concatenate((xy_other_half, xy_first_half), axis=1)
-    plt.plot(xy_full[1, :], xy_full[0, :])
+        [-xy_first_half[0, :] + 2*xy_first_half[0, :].max(), xy_first_half[1, :]])
+    xy_full = np.concatenate((np.flip(xy_other_half, 1), xy_first_half), axis=1)
+    plt.plot(xy_full[0, :], xy_full[1, :])
 
 
 # %%
