@@ -17,8 +17,9 @@ import cv2
 
 forest_img = cv2.imread("forest.jpg")
 pyramid_img = cv2.imread("pyramids.png")
-pyramid_img = cv2.cvtColor(pyramid_img,cv2.COLOR_BGR2GRAY)
 forest_img = cv2.cvtColor(forest_img,cv2.COLOR_BGR2GRAY)
+pyramid_img = cv2.cvtColor(pyramid_img,cv2.COLOR_BGR2GRAY)
+
 
 # %%
 # TODO: your goal is to build the pyramids in the forest!
@@ -27,7 +28,10 @@ forest_img = cv2.cvtColor(forest_img,cv2.COLOR_BGR2GRAY)
 #  - How to mask/overlay the pixels from pyramids image to forest image (use numpy masks that we've seen in the numpy notebook!!!)
 #
 #  TODO: this section can be done in 3-5 lines of nice looking code, try not to write more then 10 lines here.
-res_im = []
+res_im = np.zeros_like(forest_img)
+res_im[0:pyramid_img.shape[0], 0:pyramid_img.shape[1]] = pyramid_img
+res_im[res_im==0]=forest_img[res_im==0]
+res_im[res_im>160]=forest_img[res_im>160]
 
 # %%
 plt.figure()
