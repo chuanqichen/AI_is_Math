@@ -9,7 +9,14 @@
 def pyramid_case(in_word):
     # TODO: return the pyramid case word.
     # WRITE IN 10 CODE LINES MAX!!!
-    pass
+    list_word = list(in_word)
+    for i in range(len(list_word)):
+        if i%2 == 0: 
+            list_word[i] = list_word[i].upper()
+        else:
+            list_word[i]= list_word[i].lower()
+
+    return "".join(list_word)
 
 # %%
 
@@ -18,7 +25,7 @@ def pyramid_case_one_liner(in_word):
     # TODO: ~~~BONUS~~~
     # return the pyramid case word in one line of code inside the function.
     # DO NOT USE ";" IN YOUR CODE.
-    pass
+    return "".join([ in_word[i].upper() if i%2 ==0 else in_word[i].lower() for i in range(len(in_word))])
 
 
 # %%
