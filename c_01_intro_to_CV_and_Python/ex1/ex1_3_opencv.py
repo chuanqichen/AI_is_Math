@@ -29,10 +29,11 @@ pyramid_img = cv2.cvtColor(pyramid_img,cv2.COLOR_BGR2GRAY)
 #
 #  TODO: this section can be done in 3-5 lines of nice looking code, try not to write more then 10 lines here.
 res_im = np.zeros_like(forest_img)
-res_im[0:pyramid_img.shape[0], 0:pyramid_img.shape[1]] = pyramid_img
-res_im[res_im==0]=forest_img[res_im==0]
-res_im[res_im>160]=forest_img[res_im>160]
-
+pyramid = pyramid_img[0:460, :]
+res_im[0:pyramid.shape[0], 0:pyramid.shape[1]] = pyramid
+mask = res_im==0
+res_im[mask]=forest_img[mask]
+#res_im[res_im>160]=forest_img[res_im>160]
 # %%
 plt.figure()
 plt.imshow(res_im, cmap='gray', vmin=0, vmax=255)
