@@ -7,6 +7,9 @@
 ** For the first lab, start from home directory in your Ubuntu terminal: 
 cd 
 git clone https://github.com/chuanqichen/XB101.git
+sudo apt install python3-pip
+sudo pip install numpy scipy matplotlib 
+sudo pip install notebook ipykernel
 ** get latest update in subsequent labs 
 cd XB101
 git pull
