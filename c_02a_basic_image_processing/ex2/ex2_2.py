@@ -2,6 +2,7 @@
 # # EX2_2
 # Find different words in newspaper article
 # We'll do this using morphology operators and connected components.
+# Reference Paper: https://medium.com/hackernoon/an-introduction-to-morphological-operations-for-digital-image-text-classification-79cb14bab2d7
 # %%
 # to run in google colab
 import sys
