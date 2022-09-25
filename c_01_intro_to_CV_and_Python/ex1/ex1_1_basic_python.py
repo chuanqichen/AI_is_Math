@@ -5,6 +5,39 @@
 # You can assume that the input is a valid string which contains only english letters.
 # %%
 
+""" 
+def pyramid_case_clara(in_word):
+    final = []
+    newl = []
+    for i in range(len(in_word)):
+        lst= [i for i in in_word[i]]
+        for i in range(len(lst)):
+            if ord(lst[i])%2 == 1 and ord(lst[i])<97 and ord(lst[i])<65:
+                lst[i]=ord(lst[i])
+                newl.append(chr(lst[i]+32))
+            if ord(lst[i])%2 == 0 and ord(lst[i])<97 and ord(lst[i])>65:
+                lst[i] = ord(lst[i])
+                newl.append(chr(lst[i]-32))
+            else:
+                continue
+        final.append(newl)
+    print(*final)
+    pass
+ """
+
+'''
+def pyramid_case_clara_working(in_word):
+    final = []
+    lst = [i for i in in_word]
+    for i in range(len(lst)):
+        newl = lst[i]
+        if i % 2 == 1  and lst[i] >= 'A' and lst[i] <= 'Z':            
+            newl= chr(ord(lst[i])-ord('A') +ord('a'))
+        elif i % 2 == 0 and lst[i] >= 'a' and lst[i] <= 'z':
+            newl= chr(ord(lst[i])-ord('a') +ord('A'))
+        final.append(newl)
+    return "".join(final)
+'''
 
 def pyramid_case(in_word):
     # TODO: return the pyramid case word.
