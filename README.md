@@ -40,5 +40,7 @@ Refer to this tutorial jupyer notebook: <br>
 Click "Open in Colab" (highighted in red), then you can read and run the code on the following browser: 
 <img src="XB101_VSCode_google_colab2.png" width="600">
 
-
+## Reference
+* [learnopencv](https://learnopencv.com/)
+* [scientific-python](https://scientific-python.readthedocs.io/)
 
