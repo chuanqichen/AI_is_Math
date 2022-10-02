@@ -42,4 +42,5 @@ Click "Open in Colab" (highighted in red), then you can read and run the code on
 
 ## Reference
 * [learnopencv](https://learnopencv.com/)
+* [scientific-python](https://scientific-python.readthedocs.io/)
 
