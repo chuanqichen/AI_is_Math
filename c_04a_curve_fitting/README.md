@@ -1,5 +1,12 @@
 # Regression Methods
 
+## installation
+```
+pip install -U scikit-learn
+pip install -U statsmodels
+pip install -U seaborn
+```
+
 ## Reference:
 * [interactive linear regression](https://mlu-explain.github.io/linear-regression/)
 * [Introduction-Linear Regression and Correlation](https://openstax.org/books/introductory-statistics/pages/12-introduction) by OpenStaxTM, Rice University (for High School level)
