@@ -43,4 +43,7 @@ Click "Open in Colab" (highighted in red), then you can read and run the code on
 ## Reference
 * [learnopencv](https://learnopencv.com/)
 * [scientific-python](https://scientific-python.readthedocs.io/)
+* [WhirlwindTourOfPython](https://github.com/chuanqichen/WhirlwindTourOfPython)
+* [PythonDataScienceHandbook](https://github.com/chuanqichen/PythonDataScienceHandbook)
+* [CS 5163 (Introduction to Data Science)](http://www.cs.utsa.edu/~jruan/teaching/cs5163f17/)
 
