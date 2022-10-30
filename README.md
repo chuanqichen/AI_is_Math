@@ -1,4 +1,4 @@
-# XB101: Robotic Vision and LiDAR Map
+# XB101: Robotic Vision
 
 ## [Course TOC](https://github.com/chuanqichen/XB101/blob/master/TOC.md)
 
